@@ -24,12 +24,13 @@ Thanks in advance!
 And please:
 </p>
 <b>
-| ￣￣￣￣￣￣￣￣￣ |</br>
-|       BE        |</br>
-|    CREATIVE     | </br>
-|                 |</br>
-|  ＿＿＿＿＿＿＿＿  | </br>
-(\__/) || </br>
-(•ㅅ•) || </br>
-/ 　 づ
+
+| ￣￣￣￣￣￣￣￣￣&nbsp;|</br>
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; BE &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; |</br>
+| &nbsp;  &nbsp;  &nbsp;  &nbsp; CREATIVE &nbsp;  &nbsp;  &nbsp;  &nbsp;|</br>
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; |</br>
+| &nbsp; &nbsp;＿＿＿＿＿＿＿＿ &nbsp;|</br>
+(\\__/) &nbsp; ||</br>
+(•ㅅ•) &nbsp; ||</br>
+/ &nbsp; 　 &nbsp; づ
 </b>
