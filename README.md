@@ -11,11 +11,15 @@ You need <b>Python3</b> to run.
 ---
 
 ## How to contribute?
-<pre>
+<p>
 You can add more mission, characters or other stuff! :D
+</p>
+<p>
 And also your feddback always helpful!
+</p>
+<p>
 Thanks in advance!
-</pre>
+</p>
 <p>
 And please:
 </p>
