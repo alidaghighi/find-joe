@@ -24,14 +24,12 @@ Thanks in advance!
 And please:
 </p>
 <b>
-<pre>
-| ￣￣￣￣￣￣￣￣￣ |
-|       BE        |
-|    CREATIVE     | 
-|                 |
-|  ＿＿＿＿＿＿＿＿  | 
-(\__/) || 
-(•ㅅ•) || 
+| ￣￣￣￣￣￣￣￣￣ |</br>
+|       BE        |</br>
+|    CREATIVE     | </br>
+|                 |</br>
+|  ＿＿＿＿＿＿＿＿  | </br>
+(\__/) || </br>
+(•ㅅ•) || </br>
 / 　 づ
-</pre>
 </b>
