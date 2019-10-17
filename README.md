@@ -32,5 +32,5 @@ And please:
 | &nbsp; &nbsp;＿＿＿＿＿＿＿＿ &nbsp;|</br>
 (\\__/) &nbsp; ||</br>
 (•ㅅ•) &nbsp; ||</br>
-/ &nbsp; 　 &nbsp; づ
+/ &nbsp; 　 &nbsp;\づ
 </b>
