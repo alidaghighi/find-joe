@@ -320,7 +320,7 @@ def bathroom():
                 typePrint(FAIL + "THE" + ENDC)
                 time.sleep(0.5)
                 typePrint(FAIL + "HELL!" + ENDC)
-                time.sleep(2.5)
+                time.sleep(0.5)
                 typePrint(OKBLUE + "⊂_ヽ \n　 ＼＼ \n　 ＼＼ \n　　 ＼( ͡° ͜ʖ ͡°) \n　　　 >　⌒ヽ \n　　　/ 　 へ＼ \n　　 /　　/　＼＼ \n 　　 ﾚ　ノ　　 ヽ_つ \n　　/　/ \n　 /　/| \n　(　(ヽ \n　|　|、＼ \n　| 丿 ＼ ⌒) \n　| |　　) / \nノ )　　Lﾉ \n(_／ \n" + ENDC)
                 time.sleep(2.5)
             else:
@@ -509,11 +509,11 @@ time.sleep(2)
 
 typePrint(
             """
-        1. New Game
-        2. Load (Not working so don't try)
-        3. Help (Maybe later)
-        3. Credit (Oh come on!)
-        4. Exit
+        New Game
+        Load (Not working so don't try)
+        Help (Maybe later)
+        Credit (Oh come on!)
+        Exit
         """
         )
 options = input()
@@ -535,7 +535,7 @@ if options.lower() == "exit":
 
 
 time.sleep(2)
-print("\n\n\n")
+typePrint(CLEAR)
 typePrint("This game is a comedy text-based adventure, based on the Loss comic. Yep, it's that bad.\n")
 time.sleep(2)
 typePrint(FAIL + "Your actions actually do have consequences.\n" + ENDC)
