@@ -59,6 +59,7 @@ inHouse = 0
 inBathroom = 0
 pee = 1
 poop = 1
+dirtyHand = False
 
 def typePrint(m):
     l = list(m)
@@ -268,6 +269,7 @@ def bathroom():
     inBathroom = 1
     global pee
     global poop
+    global dirtyHand
     typePrint("\nYou step into the bathroom\n")
     while inBathroom == 1:
         time.sleep(1.5)
@@ -293,6 +295,7 @@ def bathroom():
                     typePrint(OKGREEN + "     (   )  \n  (   ) (   \n   ) _   )  \n    ( \_    \n  _(_\ \)__ \n (____\___))" + ENDC)
                     time.sleep(1.5)
                     poop -= 1
+                    dirtyHand = True
                     typePrint("Done!")
                 else:
                     typePrint("You need to eat something to poop!\nyou can't generate it out of nothing! ಠ_ಠ")
@@ -301,6 +304,7 @@ def bathroom():
                     typePrint(OKGREEN + "        _  \n       ( } \n ====  /\\\\ \n |  | / /\\\\\n |__|_L_==n\n   L(   ) |\n    (___) L\n" + ENDC)
                     time.sleep(1.5)
                     pee -= 1
+                    dirtyHand = True
                     typePrint("Done! \nP.S. I did my best for these ASCII arts 	¯\_( ͡° ͜ʖ ͡°)_/¯")
                 else:
                     typePrint("You need to drink something!\nyou can't generate it out of nothing! ಠ_ಠ")
@@ -312,6 +316,7 @@ def bathroom():
             if options.upper() == "USE WATER":
                 typePrint("\nNow you are using water tap to wash your hands!\nUse your imagination for sound ofwater •ᴗ•")
                 time.sleep(2.5)
+                dirtyHand = False
             elif options.upper() == "USE MIRROR":
                 typePrint("\nYou are looking at your face and wondering...\n")
                 time.sleep(0.5)
@@ -326,9 +331,12 @@ def bathroom():
             else:
                 typePrint(FAIL + "Wrong move!\nTry again!" + ENDC)
         elif options.upper() == "DOOR":
-            inBathroom = 0
-            typePrint("You are going back to the bedroom")
-            bedroom()
+            if dirtyHand:
+                typePrint("You should wash your dirty hands before leaving")
+            else:
+                inBathroom = 0
+                typePrint("You are going back to the bedroom")
+                bedroom()
         else:
             typePrint(FAIL + "Wrong move!\nTry again!" + ENDC)
 
