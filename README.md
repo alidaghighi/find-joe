@@ -7,7 +7,7 @@
 You need <b>Python3</b> to run.
 1. Download it as a zip file or clone it!
 2. Change your directory to the project directory   
-3. `python find-joe.py`
+3. `python3 find-joe.py`
 ---
 
 ## How to contribute?
