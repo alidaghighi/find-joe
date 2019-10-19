@@ -1,36 +1,3 @@
-
-
-
-# class bcolors:
-#     HEADER = "\033[95m"
-#     OKBLUE = "\033[94m"
-#     OKGREEN = "\033[92m"
-#     WARNING = "\033[93m"
-#     FAIL = "\033[91m"
-#     ENDC = "\033[0m"
-#     CLEAR = "\x1b[2J\x1b[H"
-
-#     def disable(self):
-#         self.HEADER = ""
-#         self.OKBLUE = ""
-#         self.OKGREEN = ""
-#         self.WARNING = ""
-#         self.FAIL = ""
-#         self.ENDC = ""
-
-
-# class FindJoe:
-#     def __init__(self, load=None):
-#         self.newGame = None
-#         if load:
-#             load_file = open(load)
-#             loaded = load_file.read()
-#             loaded = loaded.split("\n")
-#             self.newGame = False
-#             print(loaded)
-#         else:
-#             self.newGame = True
-
 import time
 import sys
 import random
