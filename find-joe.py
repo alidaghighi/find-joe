@@ -31,14 +31,6 @@
 #         else:
 #             self.newGame = True
 
-
-
-
-
-# ***
-# Quick note: type the number or type your choice compeletly! (number is much easier! 
-# ¯\_( ͡° ͜ʖ ͡°)_/¯)
-# ***
 import time
 import sys
 import random
