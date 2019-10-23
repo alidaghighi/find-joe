@@ -167,7 +167,7 @@ def makeEgg():
     egg = 0
     global options
     while makeEggs == 1:
-        typePrint("You want to make an egg. What do you need to do?\nEgg  -  Stove  -  Pan  -  Oil")
+        typePrint("You want to make an egg. What do you need to do?\nEgg    Stove    Pan    Oil  Exit")
         options = input()
 
         if options.upper() == "EGG":
@@ -235,6 +235,10 @@ def makeEgg():
             elif pan == 0:
                 typePrint("You place the pan on the stove.")
                 pan = 1
+
+        elif options.upper() == "EXIT":
+        	typePrint("OK... Maybe next time.")
+        	makeEggs = 0
         else:
             typePrint("Wrong move!\nTry again!")
 
@@ -255,11 +259,16 @@ def kitchen():  # Kitchen
     typePrint("You enter the kitchen.")
     time.sleep(1)
     while inKitchen == 1:
-        typePrint("What should you eat?\nEgg    Bacon    Toast    Cereal")
+        typePrint("What should you eat?\nEgg    Bacon    Toast    Cereal    Nothing")
         options = input()
 
         if options.upper() == "EGG":
             makeEgg()
+        elif options.upper() == "NOTHING":
+        	typePrint("It seems you're not hungry")
+        	inKitchen = 0
+        	inHouse = 0
+        	bedroom()
         else:
             typePrint("I'm still working on story line! Till now you can just go with Egg!  ಠᴗಠ")
 
@@ -553,3 +562,4 @@ time.sleep(2.5)
 typePrint("You slowly raise yourself out of bed.\n")
 time.sleep(2)
 bedroom()
+
